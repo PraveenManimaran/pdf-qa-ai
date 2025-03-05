@@ -54,8 +54,36 @@ $env:OPENAI_API_KEY="your-api-key-here"
 
 OR you can enter the key manually in the Streamlit UI.
 
-### **🚀 5️⃣Run the Application**
+### **🚀 5️⃣ Run the Application**
 streamlit run app_streamlit.py
+
+## 📜 How the Project Works
+### **1️⃣ Upload a PDF**
+- Drag & drop a **PDF file**.  
+- Text is extracted using **PyMuPDF (`pymupdf`)**.  
+
+### **2️⃣ Store Embeddings**
+- Extracted text is **split into chunks**.  
+- Chunks are **embedded** using **OpenAIEmbeddings**.  
+- Stored in **ChromaDB** for retrieval.  
+
+### **3️⃣ Ask a Question**
+- The user enters a **question**.  
+- The system **retrieves relevant document sections**.  
+- **GPT-4** answers using the retrieved context.  
+
+---
+
+## 🔧 Troubleshooting
+
+| Issue | Solution |
+|--------|---------|
+| `ModuleNotFoundError: No module named 'fitz'` | Run `pip install pymupdf` |
+| `Invalid API Key` | Generate a new key at [OpenAI API Keys](https://platform.openai.com/account/api-keys) |
+| `CORS error in frontend` | Add `flask-cors` with `pip install flask-cors` |
+| `ChromaDB Deprecation Warning` | Run `pip install --upgrade langchain-chroma` |
+
+
 
 
 
