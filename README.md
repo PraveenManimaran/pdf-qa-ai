@@ -30,6 +30,8 @@ This project uses the following Python libraries:
 
 ![Demo](demo.gif)
 
+---
+
 ## **🛠️ Installation & Setup**
 ### **1️⃣ Clone the Repository**
 git clone https://github.com/PraveenManimaran/pdf-qa-ai.git
@@ -60,6 +62,8 @@ OR you can enter the key manually in the Streamlit UI.
 
 ### **🚀 5️⃣ Run the Application**
 streamlit run app_streamlit.py
+
+---
 
 ## 📜 How the Project Works
 ### **1️⃣ Upload a PDF**
