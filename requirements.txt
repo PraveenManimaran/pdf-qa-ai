@@ -1,0 +1,7 @@
+flask
+openai
+pymupdf
+chromadb  # For embeddings storage
+langchain  # For retrieval-augmented generation (RAG)
+tiktoken  # Efficient tokenization
+streamlit
