@@ -40,8 +40,23 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-### **2️⃣ Install Dependencies**
+### **3️⃣ Install Dependencies**
 pip install -r requirements.txt
+
+### **🔑 4️⃣ Set Up OpenAI API Key**
+Since we don't hardcode API keys, you need to set it as an environment variable:
+
+**Mac/Linux:**
+export OPENAI_API_KEY="your-api-key-here"
+
+**Windows (PowerShell):**
+$env:OPENAI_API_KEY="your-api-key-here"
+
+OR you can enter the key manually in the Streamlit UI.
+
+### **🚀 5️⃣Run the Application**
+streamlit run app_streamlit.py
+
 
 
 
