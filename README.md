@@ -28,6 +28,21 @@ This project uses the following Python libraries:
 
 ## **🛠️ Installation & Setup**
 ### **1️⃣ Clone the Repository**
-```bash
 git clone https://github.com/PraveenManimaran/pdf-qa-ai.git
 cd pdf-qa-ai
+
+### **2️⃣ Create a Virtual Environment**
+**Mac/Linux:**
+python3 -m venv venv
+source venv/bin/activate
+
+**Windows:**
+python -m venv venv
+venv\Scripts\activate
+
+### **2️⃣ Install Dependencies**
+pip install -r requirements.txt
+
+
+
+
