@@ -26,6 +26,10 @@ This project uses the following Python libraries:
 
 ---
 
+## 🎥 Demo
+
+![Demo](demo.gif)
+
 ## **🛠️ Installation & Setup**
 ### **1️⃣ Clone the Repository**
 git clone https://github.com/PraveenManimaran/pdf-qa-ai.git
